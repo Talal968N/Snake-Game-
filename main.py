@@ -1,4 +1,5 @@
 from turtle import Screen 
+from snake import Snake 
 
 window = Screen ()
 window. setup (width=800, height=800)
