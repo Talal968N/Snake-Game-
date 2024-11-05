@@ -14,6 +14,8 @@ class Snake:
     def move_snake(self)
         for i in range (len(self.snake)-1):
             snake[i].goto(snake[i+1].pos())
+        self.snakes[-1]. forward (20)
+        self.snakes[-1].left(90)
             
             
     
